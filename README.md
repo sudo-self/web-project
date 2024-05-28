@@ -10,7 +10,8 @@ This Bash script automates the setup process for a basic web project. It creates
 - Creates license, README, and robots.txt files.
 - Initializes a Git repository with an initial commit.
 - Optionally runs the project on a local server using http-server.
-
+- Includes a simple `manifest.json` for PWA (Progressive Web App) support.
+- 
 ## Usage
 
 1. Clone this repository or download the script `webproject.sh`.
@@ -26,7 +27,8 @@ This Bash script automates the setup process for a basic web project. It creates
 
 ## Photos
 
-<img width="287" alt="Screenshot 2024-05-28 at 9 28 18 AM" src="https://github.com/sudo-self/web-project/assets/119916323/3052a0b3-de40-4b51-99f3-780bc25c2252">
+<img width="337" alt="Screenshot 2024-05-28 at 9 43 19 AM" src="https://github.com/sudo-self/web-project/assets/119916323/f84c2694-8515-4c4e-b34a-0782c5be68f8">
+
 
 ## Notes
 
