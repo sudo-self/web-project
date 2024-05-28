@@ -27,7 +27,6 @@ This Bash script automates the setup process for a basic web project. It creates
 ## Photos
 
 <img width="287" alt="Screenshot 2024-05-28 at 9 28 18 AM" src="https://github.com/sudo-self/web-project/assets/119916323/3052a0b3-de40-4b51-99f3-780bc25c2252">
-<img width="715" alt="Screenshot 2024-05-28 at 9 34 37 AM" src="https://github.com/sudo-self/web-project/assets/119916323/0bbf0d7b-3691-4bfd-9df5-250357b02205">
 
 ## Notes
 
