@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Web project by Sudo-self
-
 # Function to initialize Git repository and perform initial commit
 initialize_git() {
     git init
@@ -106,6 +104,31 @@ echo "## Web Project\n\nThis is a web project generated using a bash script." > 
 # Create robots.txt file
 echo "User-agent: *\nDisallow:" > robots.txt
 
+# Create manifest.json file
+cat << EOF > manifest.json
+{
+  "name": "Web Project",
+  "short_name": "Web",
+  "start_url": "https://example.com",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#333",
+  "display": "standalone"
+}
+EOF
+
 # Initialize Git repository
 read -rp "Initialize Git repository? (y/n): " initialize_git_option
 if [[ "$initialize_git_option" =~ ^[Yy]$ ]]; then
@@ -129,3 +152,6 @@ fi
 if [[ "$initialize_git_option" =~ ^[Yy]$ ]]; then
     echo "Git repository initialized and initial commit performed."
 fi
+
+echo "Thank you, Enjoy your Web-Project!"
+
