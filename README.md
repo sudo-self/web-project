@@ -2,17 +2,14 @@
 
 This Bash script automates the setup process for a basic web project. It creates a directory structure with essential files, downloads favicon and apple-touch-icon images, generates an HTML file with a basic structure, creates a license, README, and robots.txt files, initializes a Git repository if desired, and optionally runs the project on a local server.
 
-## Features
-
-- Creates a directory structure for a web project.
-- Downloads favicon and apple-touch-icon images.
-- Generates an HTML file with a basic structure including CSS and JavaScript links.
-- Creates license, README, and robots.txt files.
-- Initializes a Git repository with an initial commit.
-- Optionally runs the project on a local server using http-server.
-- Includes a simple `manifest.json` for PWA (Progressive Web App) support.
-- 
 ## Usage
+
+1. Clone this repository or download the script from [this Gist](https://gist.github.com/sudo-self/88cd02f137bfd17e48552f63acd4851d).
+2. Make sure you have Bash installed on your system.
+3. Run the script by executing `./webproject.sh` in your terminal.
+4. Follow the on-screen prompts to initialize a Git repository and run the project on a local server if desired.
+
+## Requirements
 
 1. Clone this repository or download the script `webproject.sh`.
 2. Make sure you have Bash installed on your system.
