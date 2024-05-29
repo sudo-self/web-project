@@ -12,13 +12,10 @@ This Bash script or npm package automates the setup process for a basic web proj
 OR it can be run with npm, it accepts --git and --serve optionaly for a repo or running on local server
 
 ```
-npm install -g web-project-setup && web-project-setup
+sudo npm install -g web-project-setup && web-project-setup
 ```
  git and serve
 
-```
-web-project-setup --git --serve
-```
 ## This command will:
 
 1. Create a new directory named website-project.
