@@ -12,8 +12,8 @@ This Bash script automates the setup process for a basic web project. It creates
 
 ## Requirements
 
-- Bash shell
-- curl (for downloading files)
+- bash shell
+- curl 
 - npm (for running http-server)
 
 ## Photos
