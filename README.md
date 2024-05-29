@@ -9,7 +9,7 @@ This Bash script automates the setup process for a basic web project. It creates
 3. Run the script by executing `./webproject.sh` in your terminal.
 4. Follow the on-screen prompts to initialize a Git repository and run the project on a local server if desired.
 
-OR it can be run with npm 
+OR it can be run with npm, it accepts --git and --serve optionaly for a repo or running on localhost.
 
 ```
 npm install -g web-project-setup
