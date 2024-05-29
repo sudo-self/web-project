@@ -1,6 +1,6 @@
 # Web Project Setup Script
 
-This Bash script automates the setup process for a basic web project. It creates a directory structure with essential files, downloads favicon and apple-touch-icon images, generates an HTML file with a basic structure, creates a license, README, and robots.txt files, initializes a Git repository if desired, and optionally runs the project on a local server.
+This Bash script or npm package automates the setup process for a basic web project. It creates a directory structure with essential files, downloads favicon and apple-touch-icon images, generates an HTML file with a basic structure, creates a license, README, and robots.txt files, initializes a Git repository if desired, and optionally runs the project on a local server.
 
 ## Usage
 
