@@ -23,16 +23,7 @@ This Bash script automates the setup process for a basic web project. It creates
 
 ## Notes
 
-- This project does not utilize any frameworks and is based on static HTML.
-
-
-## License
-
-This script is released under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Author
-
-This script was created by sudo-self. Feel free to reach out with any questions or feedback.
+- This project does not utilize any frameworks and is based on static HTML. 
 
 
 ## License
