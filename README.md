@@ -32,7 +32,7 @@ This script is released under the MIT License. See the [LICENSE](LICENSE) file f
 
 ## Author
 
-This script was created by [Your Name]. Feel free to reach out with any questions or feedback.
+This script was created by sudo-self. Feel free to reach out with any questions or feedback.
 
 
 ## License
