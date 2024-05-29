@@ -17,16 +17,16 @@ npm install -g web-project-setup
 
 ## This command will:
 
-Create a new directory named website-project.
-Create script.js and style.css files.
-Download favicon.ico and apple-touch-icon.png.
-Generate an index.html file with basic HTML structure.
-Create a license.txt file with the MIT license.
-Create a README.md file.
-Create a robots.txt file.
-Create a manifest.json file for PWA support.
-Initialize a Git repository and make the initial commit.
-Install and start a local server using http-server.
+1. Create a new directory named website-project.
+2. Create script.js and style.css files.
+3. Download favicon.ico and apple-touch-icon.png.
+4. Generate an index.html file with basic HTML structure.
+5. Create a license.txt file with the MIT license.
+6. Create a README.md file.
+7. Create a robots.txt file.
+8. Create a manifest.json file for PWA support.
+9. Initialize a Git repository and make the initial commit.
+10. Install and start a local server using http-server.
 
 
 
