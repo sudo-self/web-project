@@ -9,12 +9,6 @@ This Bash script automates the setup process for a basic web project. It creates
 3. Run the script by executing `./webproject.sh` in your terminal.
 4. Follow the on-screen prompts to initialize a Git repository and run the project on a local server if desired.
 
-## Requirements
-
-1. Clone this repository or download the script `webproject.sh`.
-2. Make sure you have Bash installed on your system.
-3. Run the script by executing `./webproject.sh` in your terminal.
-4. Follow the on-screen prompts to initialize a Git repository and run the project on a local server if desired.
 
 ## Requirements
 
