@@ -14,10 +14,9 @@ OR it can be run with npm, it accepts --git and --serve optionaly for a repo or 
 ```
 npm install -g web-project-setup
 ```
-run on server
 
 ```
-npm install -g web-project-setup --serve
+bash web-project-setup --git --serve
 ```
 
 ## This command will:
