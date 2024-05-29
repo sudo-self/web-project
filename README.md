@@ -14,11 +14,14 @@ OR it can be run with npm, it accepts --git and --serve optionaly for a repo or 
 ```
 npm install -g web-project-setup
 ```
+```
+web-project-setup --git --serve
+```
+ git and serve
 
 ```
-bash web-project-setup --git --serve
+web-project-setup --git --serve
 ```
-
 ## This command will:
 
 1. Create a new directory named website-project.
