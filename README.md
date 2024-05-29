@@ -4,6 +4,13 @@ This Bash script or npm package automates the setup process for a basic web proj
 
 ## Usage
 
+one command
+
+```
+sudo npm install -g web-project-setup && web-project-setup
+```
+or
+
 1. Clone this repository or download the script from [this Gist](https://gist.github.com/sudo-self/88cd02f137bfd17e48552f63acd4851d).
 2. Make sure you have bash installed on your system.
 3. Run the script by executing `./webproject.sh` in your terminal.
@@ -11,10 +18,6 @@ This Bash script or npm package automates the setup process for a basic web proj
 
 OR it can be run with npm, it accepts --git and --serve optionaly for a repo or running on local server
 
-```
-sudo npm install -g web-project-setup && web-project-setup
-```
- git and serve
 
 ## This command will:
 
