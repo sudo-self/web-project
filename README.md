@@ -9,6 +9,29 @@ This Bash script automates the setup process for a basic web project. It creates
 3. Run the script by executing `./webproject.sh` in your terminal.
 4. Follow the on-screen prompts to initialize a Git repository and run the project on a local server if desired.
 
+OR it can be run with npm 
+
+```
+npm install -g web-project-setup
+```
+
+## This command will:
+
+Create a new directory named website-project.
+Create script.js and style.css files.
+Download favicon.ico and apple-touch-icon.png.
+Generate an index.html file with basic HTML structure.
+Create a license.txt file with the MIT license.
+Create a README.md file.
+Create a robots.txt file.
+Create a manifest.json file for PWA support.
+Initialize a Git repository and make the initial commit.
+Install and start a local server using http-server.
+
+
+
+
+
 
 ## Requirements
 
