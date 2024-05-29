@@ -16,6 +16,23 @@ This Bash script automates the setup process for a basic web project. It creates
 - curl 
 - npm (for running http-server)
 
+## Project Structure
+
+After running the script, the project directory will look like this:
+
+```
+website-project/
+├── apple-touch-icon.png
+├── favicon.ico
+├── index.html
+├── license.txt
+├── manifest.json
+├── README.md
+├── robots.txt
+├── script.js
+└── style.css
+```
+
 ## Photos
 
 <img width="337" alt="Screenshot 2024-05-28 at 9 43 19 AM" src="https://github.com/sudo-self/web-project/assets/119916323/f84c2694-8515-4c4e-b34a-0782c5be68f8">
