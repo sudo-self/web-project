@@ -24,12 +24,15 @@ download_file() {
 mkdir -p website-project
 cd website-project || exit
 
+# Create directories for assets, styles, and scripts
+mkdir -p assets css js
+
 # Create script.js and style.css files
-touch script.js style.css
+touch js/script.js css/style.css
 
 # Download favicon.ico and apple-touch-icon.png
-download_file "https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/favicon.ico" "favicon.ico"
-download_file "https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/apple-touch-icon.png" "apple-touch-icon.png"
+download_file "https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/favicon.ico" "assets/favicon.ico"
+download_file "https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/apple-touch-icon.png" "assets/apple-touch-icon.png"
 
 # Generate index.html file
 cat << EOF > index.html
@@ -39,9 +42,9 @@ cat << EOF > index.html
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Welcome to Web Project!</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <meta name="description" content="">
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -67,7 +70,7 @@ cat << EOF > index.html
 </head>
 <body>
     <h1>Welcome to Web Project!</h1>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 EOF
@@ -99,7 +102,35 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 EOF
 
 # Create README.md file
-echo "## Web Project\n\nThis is a web project generated using a bash script." > README.md
+cat << EOF > README.md
+## Web Project
+
+This is a web project generated using a bash script.
+
+### Setup
+
+\`\`\`bash
+git clone <repository_url>
+cd website-project
+npm install
+\`\`\`
+
+### Development
+
+\`\`\`bash
+npm start
+\`\`\`
+
+### Build
+
+\`\`\`bash
+npm run build
+\`\`\`
+
+### Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+EOF
 
 # Create robots.txt file
 echo "User-agent: *\nDisallow:" > robots.txt
@@ -113,12 +144,12 @@ cat << EOF > manifest.json
   "scope": "./",
   "icons": [
     {
-      "src": "apple-touch-icon.png",
+      "src": "assets/apple-touch-icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "apple-touch-icon.png",
+      "src": "assets/apple-touch-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -127,6 +158,32 @@ cat << EOF > manifest.json
   "background_color": "#333",
   "display": "standalone"
 }
+EOF
+
+# Create .gitignore file
+cat << EOF > .gitignore
+node_modules/
+.DS_Store
+EOF
+
+# Create basic content for style.css and script.js
+cat << EOF > css/style.css
+/* css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+EOF
+
+cat << EOF > js/script.js
+// js/script.js
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Welcome to Web Project!');
+});
 EOF
 
 # Initialize Git repository
@@ -154,4 +211,3 @@ if [[ "$initialize_git_option" =~ ^[Yy]$ ]]; then
 fi
 
 echo "Thank you, Enjoy your Web-Project!"
-
