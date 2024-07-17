@@ -1,0 +1,29 @@
+{
+  "name": "website-project",
+  "version": "1.0.0",
+  "description": "A web project generated using a bash script.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-self/web-project.git"
+  },
+  "keywords": [
+    "web",
+    "project"
+  ],
+  "author": "sudo-self",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudo-self/web-project/issues"
+  },
+  "homepage": "https://github.com/yourusername/website-project#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
+
+
